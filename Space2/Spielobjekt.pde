@@ -8,6 +8,15 @@ class Spielobjekt
    protected float breite;
    protected float hoehe;
    
+  //Konstruktor
+  public Spielobjekt(float x_, float y_)
+  {
+    x = x_;
+    y = y_;
+    vx = 0;
+    vy = 0;
+  }
+   
   public float getX()
   {
     return x;

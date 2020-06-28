@@ -7,10 +7,7 @@ public class Kugel extends Spielobjekt
   // Konstruktor
   Kugel(float x_, float y_)
   {      
-    x = x_;
-    y = y_;
-    vx = 0;
-    vy = 0;       
+    super(x_,y_);       
     breite = 6;
     hoehe = 6;
 

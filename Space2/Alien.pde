@@ -8,10 +8,8 @@ public class Alien extends Spielobjekt
     //Konstruktor
     public Alien(float x_,float y_)
     {
-        x = x_;
-        y = y_;
+        super(x_,y_);
         vx = 0.4;
-        vy = 0;
         breite = 48;
         hoehe = 48;
 
